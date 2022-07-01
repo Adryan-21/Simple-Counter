@@ -101,11 +101,13 @@ export default {
 
 #app {
   background-image: url("./assets/wp.png");
-  background-size: cover;
+  background-size: 100%;
   width: 100%;
   height: 100vh;
+  background-position: center;
   display: grid;
   align-content: center;
+  background-color: #f8fcff;
 }
 
 .container {
