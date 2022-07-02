@@ -77,7 +77,7 @@ export default {
     },
     getDataBase() {
       fetch(
-        "https://vue-http-project-eb74d-default-rtdb.europe-west1.firebasedatabase.app/EndDate.json"
+        "https://adryan-502e4-default-rtdb.europe-west1.firebasedatabase.app/EndDate.json"
       )
         .then((result) => {
           return result.json();
